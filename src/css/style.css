@@ -40,6 +40,12 @@ img {
   padding: 25px;
 }
 
+.section-title {
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+}
+
 .header {
   padding: 20px 0;
 }
@@ -302,6 +308,31 @@ img {
   font-weight: 700;
 }
 
+.portfolio {
+  padding: 100px 0;
+  background: #f5f5f5 url("../img/portfolio-bg.png") left repeat-y;
+  background-size: 50%;
+}
+.portfolio__title {
+  margin-bottom: 100px;
+  color: #333333;
+}
+.portfolio__arrows {
+  max-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.slider__image {
+  margin: auto;
+}
+
+.arrows__left, .arrows__right {
+  cursor: pointer;
+}
+
 .modal {
   position: fixed;
   left: 0;
@@ -327,4 +358,5 @@ img {
   position: absolute;
   right: 0;
   top: 0;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
