@@ -11,6 +11,8 @@ close.addEventListener('click', function(){
     modal.classList.remove('modal_active');
 });
 */
+
+//jquery
 $(document).ready(function(){
     button = $('#button');
     modal = $('#modal');
