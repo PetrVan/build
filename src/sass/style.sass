@@ -255,6 +255,8 @@ img
     display: flex
     flex-wrap: wrap
     justify-content: space-between
+    @media (max-width: 1200px )
+            justify-content: space-around
 
 .card
     text-align: center
@@ -297,8 +299,8 @@ img
             position: absolute
             z-index: -1
             bottom: -4px
-            left: 0
-            width: 100%
+            left: -5px
+            width: 110%
             height: 3px
             background-color: $main-color
             transition: .2s
