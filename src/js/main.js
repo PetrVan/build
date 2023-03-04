@@ -14,6 +14,12 @@ close.addEventListener('click', function(){
 
 //jquery
 $(document).ready(function(){
+
+
+    // Napojení knihovny wow.js
+    new WOW().init();
+
+
     button = $('#button');
     modal = $('#modal');
     close = $('#close');
@@ -26,6 +32,7 @@ $(document).ready(function(){
         modal.removeClass('modal_active');
     });
 
+    // Napojení slideru
     $('.slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
