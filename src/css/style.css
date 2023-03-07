@@ -45,6 +45,11 @@ img {
   text-align: center;
   line-height: 45px;
 }
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 18px;
+  }
+}
 
 .section-subtitle {
   color: #000;
@@ -343,6 +348,11 @@ img {
 .price {
   padding: 100px 0;
 }
+@media (max-width: 768px) {
+  .price {
+    padding-bottom: 30px;
+  }
+}
 .price__title {
   margin-bottom: 60px;
 }
@@ -435,10 +445,25 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1300px) {
+  .icons {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 640px) {
+  .icons {
+    flex-direction: column;
+  }
+}
 
 .icon {
   text-align: center;
   position: relative;
+}
+@media (max-width: 768px) {
+  .icon {
+    padding-bottom: 30px;
+  }
 }
 .icon:last-child::after {
   display: none;
@@ -452,6 +477,11 @@ img {
   width: 72px;
   height: 25px;
   background-image: url("../img/IconArrowRight.png");
+}
+@media (max-width: 1200px) {
+  .icon::after {
+    display: none;
+  }
 }
 .icon__image {
   width: 100px;
@@ -488,6 +518,12 @@ img {
   margin: auto;
   line-height: 50px;
   font-weight: 400;
+}
+@media (max-width: 768px) {
+  .notice__text {
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
 
 .modal {
