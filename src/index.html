@@ -356,9 +356,10 @@
                         <span class="form__subtitle">
                             Vyplňte níže uvedený formulář
                         </span>
-                        <form action="#" class="form">
-                            <input type="text" class="input brief__input" placeholder="Vaše jméno">
-                            <input type="text" class="input brief__input" placeholder="Váš telefon">
+                        <form action="#" class="form" id="brief-form">
+                            <input type="text" name="username" class="input brief__input" placeholder="Vaše jméno">
+                            <input type="text" name="phone" class="input brief__input" placeholder="Váš telefon">
+                            <input type="text" name="email" class="input brief__input" placeholder="Váš email">
                             <button class="button brief__button">Vypočítat náklady</button>
                             <span class="form__description"> Zavoláme vám nazpět do 60 sekund</span>
                         </form>
@@ -377,6 +378,7 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"> </script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"> </script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

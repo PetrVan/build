@@ -783,4 +783,8 @@ img {
   right: 0;
   top: 0;
   cursor: pointer;
+}
+
+.error {
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
